@@ -30,6 +30,6 @@
    git clone https://github.com/maryoxd/SkiRaceSimulation.git  
    cd SkiRaceSimulation
 2. **Compile and run the simulation:**
-```bash
+   ```bash
    g++ -o ski_race main.cpp Lyziar.cpp Hra.cpp  
    ./ski_race skiers.txt  

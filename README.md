@@ -2,6 +2,8 @@
 
 **Ski Race Simulation** is a **C++ console-based simulation** of a skiing race. Skiers are loaded from an input file and assigned random results, including a completion time or special event (e.g., disqualification). The results are sorted and displayed in a leaderboard format.  
 
+---
+
 ## 🏆 How the Simulation Works  
 1. **Load skiers** from a text file.  
 2. **Generate random results** for each skier:  
@@ -12,11 +14,15 @@
 3. **Sort results** by race time. Special event skiers are listed at the end.  
 4. **Print the leaderboard** to the console and save it to `vystup.txt`.  
 
+---
+
 ## 📌 Features  
 - **Randomized race results** – Skiers finish with a race time or special event.  
 - **Leaderboard ranking** – Sorted by time, with DSQ/DNF skiers displayed at the end.  
 - **Console output & file saving** – Results are printed and stored in `vystup.txt`.  
 - **Event categorization** – Disqualified skiers (DSQ) and non-finishers (DNF) are clearly labeled.  
+
+---
 
 ## 🛠️ Technologies Used  
 - **C++ (Standard Library & File Handling)**  
@@ -24,12 +30,4 @@
 - **Sorting Algorithm for Leaderboard Ranking**  
 - **Console & File Output Handling**  
 
-## 🚀 How to Install & Run  
-1. **Clone the repository:**  
-   ```bash
-   git clone https://github.com/maryoxd/SkiRaceSimulation.git  
-   cd SkiRaceSimulation
-2. **Compile and run the simulation:**
-   ```bash
-   g++ -o ski_race main.cpp Lyziar.cpp Hra.cpp  
-   ./ski_race skiers.txt  
+---
